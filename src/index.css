@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 
+body {
+    overflow-x: hidden;
+}
+
 .marck-script-regular {
     font-family: "Marck Script", serif;
     font-weight: 400;

@@ -30,13 +30,14 @@ function Contact() {
             );
     };
     return (
-        <section id="contact" className="mt-14 py-16 px-4 bg-gray-100">
+        <section id="contact" className="w-full mt-14 py-16 px-4 bg-gray-100">
             <h1
-                data-aos="fade-up"
+                data-aos="fade-down"
                 data-aos-delay="300"
-                className="text-5xl text-blue-600 font-bold text-center mb-14">Contact me</h1>
+                className="text-5xl text-blue-600 font-bold text-center mb-14">
+                Contact me
+            </h1>
             <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
-
                 <div className="flex flex-col items-start space-y-6"
                     data-aos="zoom-in"
                     data-aos-delay="300"
@@ -47,15 +48,15 @@ function Contact() {
                     </p>
                     <div className="flex flex-col space-y-4">
                         <div className="flex items-center space-x-2">
-                            <RiMailLine size={20} className='cursor pointer'/>
+                            <RiMailLine size={20} className='cursor pointer' />
                             <span className="text-lg text-gray-700">kelvinmakinde3@gmail.com</span>
                         </div>
                         <div className="flex items-center space-x-2">
-                            <RiPhoneLine size={20} className='cursor pointer'/>
+                            <RiPhoneLine size={20} className='cursor pointer' />
                             <span className="text-lg text-gray-700">+2349065273201</span>
                         </div>
                         <div className="flex items-center space-x-2">
-                            <RiMapPinLine size={20} className='cursor pointer'/>
+                            <RiMapPinLine size={20} className='cursor pointer' />
                             <span className="text-lg text-gray-700">Ilorin, Kwara State, Nigeria</span>
                         </div>
                     </div>

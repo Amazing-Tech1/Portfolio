@@ -12,7 +12,6 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 
-
 function App() {
   const [selectedProject, setSelectedProject] = useState(null)
 
@@ -25,26 +24,34 @@ function App() {
   }, []);
 
   return (
-    <div className='flex h-screen'>
+    <div className='relative flex overflow-x-hidden'>
       <Toaster />
-      <div className='fixed  h-full md:top-0 md:left-0 bottom-0 w-[8.333%] z-3'>
-        <Sidebar />
+      <div>
+        <div className='fixed top-0 md:left-0 md:w-[8.333%] z-3'>
+          <Sidebar />
+        </div>
       </div>
-      <div className='relative md:ml-[8.333%] w-full h-full z-1'>
+      <div className='relative w-full md:ml-[8.333%]'>
         <Home />
         <About />
         <Works />
         <Portfolio setSelectedProject={setSelectedProject} />
         <Contact />
         <Footer />
-        {selectedProject &&
+        {selectedProject && (
           <div
             data-aos="zoom-in"
             data-aos-delay="300"
-            className='fixed inset-0 z-2 w-full top-0 h-screen flex items-center justify-center bg-[#00000090] '>
-            <Project project={selectedProject} setSelectedProject={setSelectedProject} />
+            className="fixed inset-0 z-50 w-full h-screen bg-[#00000090] overflow-y-auto overflow-x-hidden p-4 flex justify-center items-center"
+          >
+            <div className="max-w-5xl w-full">
+              <Project project={selectedProject} setSelectedProject={setSelectedProject} />
+            </div>
           </div>
-        }
+        )}
+
+
+
       </div>
     </div>
   )

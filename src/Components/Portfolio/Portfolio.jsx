@@ -5,9 +5,9 @@ function Portfolio({ setSelectedProject }) {
 
 
   return (
-    <div id='portfolio' className='relative max-w-9/10 m-auto mt-14'>
+    <div id='portfolio' className='w-full overflow-x-hidden relative max-w-9/10 m-auto mt-14'>
       <div
-        data-aos="fade-up"
+        data-aos="fade-down"
         data-aos-delay="300"
         className="flex flex-col items-center mb-14">
         <h1 className='font-bold text-5xl text-blue-600'>Portfolio</h1>
