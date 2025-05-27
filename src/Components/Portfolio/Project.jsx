@@ -5,7 +5,7 @@ function Project({ project, setSelectedProject }) {
     <div
       data-aos="zoom-in-left"
       data-aos-delay="500"
-      className="px-4 py-2 sm:p-6 bg-white md:rounded-4xl shadow-lg overflow-hidden "
+      className="px-4 py-2 sm:p-6 bg-white rounded-4xl shadow-lg overflow-hidden "
     >
       <div className="flex justify-between items-start">
         <h2 className="text-3xl font-bold text-blue-600">{project.name}</h2>

@@ -10,11 +10,16 @@ function About() {
                 <div
                     data-aos="flip-down"
                     data-aos-delay="300"
-                    className='h-100 lg:h-120 w-full rounded-full overflow-hidden'>
-                    <img src={about} alt="" className='w-full h-full hover:scale-105 object-cover' />
+                    className='w-full h-80 lg:w-[30rem] lg:h-[30rem] rounded-full overflow-hidden mx-auto lg:mx-0'>
+                    <img
+                        src={about}
+                        alt="About"
+                        className='w-full h-full object-cover hover:scale-105 transition-transform duration-300'
+                    />
                 </div>
-                <div className=' justify-start'>
-                    <div className='mt-10 lg:mt-0 mb-10 text-center lg:justify-items-start'
+
+                <div className='basis-2/3 justify-start'>
+                    <div className='mt-5 lg:mt-0 mb-5 lg:mb-10 text-center lg:justify-items-start'
                         data-aos="fade-down"
                         data-aos-delay="300"
                     >
@@ -24,7 +29,11 @@ function About() {
                         <p
                             data-aos="zoom-in"
                             data-aos-delay="300"
-                            className='text-lg text-justify text-gray-800'>I am a passionate, dedicated and result driven MERN stack developer with strong foundations in building dynamic and scalable web applications. With my expertise in MongoDB, Express.Js, React, and Node.Js, I have honed the skills to deliver full-stack solutions that are not only functional but also user-friendly and efficient</p>
+                            className="text-lg text-justify text-gray-800"
+                        >
+                            I am a results-driven MERN stack developer with a strong passion for crafting dynamic, scalable, and user-centric web applications. With solid expertise in MongoDB, Express.js, React, and Node.js, I specialize in building full-stack solutions that are not only efficient and robust but also intuitive and responsive. My dedication to clean code, performance optimization, and continuous learning drives me to deliver impactful digital experiences.
+                        </p>
+
 
                         <div className='flex mt-10 items-start'
                             data-aos="zoom-in"

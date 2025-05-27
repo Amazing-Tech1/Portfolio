@@ -16,12 +16,12 @@ function App() {
   const [selectedProject, setSelectedProject] = useState(null)
 
   useEffect(() => {
-    // Initialize AOS
     AOS.init({
       duration: 1500,
       easing: 'ease-out'
     });
   }, []);
+  
 
   return (
     <div className='relative flex overflow-x-hidden'>
