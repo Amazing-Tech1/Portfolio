@@ -21,13 +21,13 @@ function App() {
       easing: 'ease-out'
     });
   }, []);
-  
+
 
   return (
     <div className='relative flex overflow-x-hidden'>
       <Toaster />
       <div>
-        <div className='fixed top-0 md:left-0 md:w-[8.333%] z-3'>
+        <div className='fixed top-0 md:left-0 md:w-[8.333%] z-3 transition-transform duration-900 ease-in-out'>
           <Sidebar />
         </div>
       </div>

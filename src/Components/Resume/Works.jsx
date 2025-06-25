@@ -1,7 +1,5 @@
-import React from 'react'
-import EduBg from './EduBg'
-import Skills from './Skills'
-
+import React from 'react';
+import Skills from './Skills';
 
 function Works() {
     return (
@@ -10,29 +8,24 @@ function Works() {
                 <div
                     data-aos="fade-down"
                     data-aos-delay="300"
-                    className='mb-10 text-center justify-center'>
-                    <h1 className='font-bold text-5xl text-blue-600'>Resume</h1>
-                    <i className="text-gray-600 mt-4 text-lg">Learn more about my qualifications, skills and hopefully add experiences to my collections </i>
+                    className='my-10 text-center justify-center'
+                >
+                    <h1 className='font-bold text-5xl text-blue-600'>Skills</h1>
+                    <i className="text-gray-600 mt-4 text-lg">
+                        Here are some of the technologies and tools I'm proficient with.
+                    </i>
                 </div>
-                <div className='w-full my-7'>
-                    <h2
-                        data-aos="fade-left"
-                        data-aos-delay="300"
-                        className='marck-script-regular text-2xl text-blue-500'>My Educational Background</h2>
-                    <EduBg />
-                </div>
+
                 <div
                     data-aos="fade-up"
                     data-aos-delay="300"
-                    className='w-full my-7'>
-                    <h2 className='marck-script-regular text-2xl text-blue-500'>My Skills</h2>
+                    className='w-full my-7'
+                >
                     <Skills />
                 </div>
-
             </div>
-
         </div>
-    )
+    );
 }
 
-export default Works
+export default Works;

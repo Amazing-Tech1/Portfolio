@@ -17,14 +17,14 @@ export default function Sidebar() {
     const navItems = [
         { id: "home", icon: <MdHome className="text-xl sm:text-2xl md:text-4xl" />, label: "Home" },
         { id: "about", icon: <MdPerson className="text-xl sm:text-2xl md:text-4xl" />, label: "About Me" },
-        { id: "work", icon: <MdWork className="text-xl sm:text-2xl md:text-4xl" />, label: "Resume" },
+        { id: "work", icon: <MdWork className="text-xl sm:text-2xl md:text-4xl" />, label: "Skill set" },
         { id: "portfolio", icon: <MdLayers className="text-xl sm:text-2xl md:text-4xl" />, label: "Portfolio" },
         { id: "contact", icon: <MdEmail className="text-xl sm:text-2xl md:text-4xl" />, label: "Contact" }
     ];
 
     return (
         <div
-            className="h-full flex md:gap-2 md:justify-center md:h-screen px-1 py-2 bg-gray-100 shadow-md rounded-br-2xl md:rounded-none transition-all duration-300 ease-in-out backdrop-blur-md md:backdrop-blur-none"
+            className="h-full flex md:gap-2 md:justify-center md:h-screen px-1 py-2 bg-gray-100 shadow-md rounded-br-2xl md:rounded-none transition-transform duration-900 ease-in-out"
 
         >
             <div className=" h-full flex flex-col md:items-center md:justify-evenly gap-7">

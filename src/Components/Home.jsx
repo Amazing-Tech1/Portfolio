@@ -27,7 +27,7 @@ function Home() {
                             Wanna build a website?
                         </h3>
                         <p className="mt-4 text-gray-700 text-sm sm:text-base leading-relaxed max-w-xl">
-                            Welcome to Amazing Technologies. I specialize in creating modern, responsive, and user-friendly websites that don't just look good but also drive results. Whether you’re a startup, small business, or a personal brand, I’ve got you covered.
+                            Hi, I'm Kelvin, and I love building modern, responsive, and user-friendly websites that not only look great but also work beautifully. Whether you're launching a new idea, growing a small business, or building your personal brand, I’m here to help bring your vision to life.
                         </p>
                         <p className="mt-4 text-blue-700 font-semibold text-base sm:text-lg">
                             Let’s team up and build something awesome together!
